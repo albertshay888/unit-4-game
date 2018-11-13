@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <!-- Create the header for the game -->
+            <h1 class="display-4">Naruto, defeat your rival, Sasuke!</h1>
+            <p class="lead">Use the crystal elements to unleash your your nine tail powers!</p>
+            <img src="assets/images/sasuke.jpg" class="img-responsive sasuke" alt="sasuke">
+
+            <!--Create button within all crystal element-->
+            <section class="row">
+                
+                <button id="water" class="elements">
+                    <img src="assets/images/water.jpg" alt="Water Element" width="100">
+                    <p class="lead"><strong>Water</strong></p>
+                </button>
+                <button id="metal" class="elements">
+                    <img src="assets/images/metal.jpg" alt="Metal Element" width="100">
+                    <p class="lead"><strong>Metal</strong></p>
+                </button>
+                <button id="fire" class="elements">
+                    <img src="assets/images/fire.jpg" alt="Fire Element" width="100">
+                    <p class="lead"><strong>Fire</strong></p>
+                </button>
+                <button id="earth" class="elements">
+                    <img src="assets/images/earth.jpg" alt="Earth Element" width="100">
+                    <p class="lead"><strong>Earth</strong></p>
+                </button>
+            </section>
+            <!-- <Create the score board-->
+            <div class="row">
+                <div class="col-md-6 score-sasuke">
+                    <p><strong>Sasuke: <span id="p-sasuke"></span></strong></p>
+                </div>
+                <div class="col-md-6 score-naruto">
+                    <p><strong>Naruto: <span id="p-naruto"></span></strong></p>
+                </div>
+            </div>
+            <br>
+            <p>Wins:<span id="wins"></span></p>
+            <p>Losses:<span id="losses"></span></p>
+        </div>
+    </div>
+
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+.sasuke {
+    width: 500px;
+    margin: auto;
+}
+
+.display-4 {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.jumbotron-fluid {
+    margin-top: 20px;
+    padding-top: 14px;
+    padding-bottom: 20px;
+}
+.row {
+    margin-top: 10px;
+    text-align: center;
+    
+    
+}
+.score-sasuke {
+    background: #727179;
+    color: white;
+    border-radius: 25px;
+    font-size: 40px;
+    
+}
+
+.score-naruto {
+    background: #b64644;
+    color: white;
+    border-radius: 25px;
+    font-size: 40px;
+
+}
+
+.elements {
+    margin: 20px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.lead {
+    text-align: center;
+}
+
+
